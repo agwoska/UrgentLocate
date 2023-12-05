@@ -19,7 +19,7 @@ A web app that helps you locate emergency services based on need.
 
 ## Academics
 
-This application was build for Project 2 for EC 601 at Boston University.
+This application was built for Project 2 for EC 601 at Boston University.
 
 ## User Stories
 
@@ -27,10 +27,16 @@ User Story information is located [here](/project2_us.pdf).
 
 ## Running the Program
 
-Currently, the app can be ran as a python script in a terminal with:
+Currently, the app can be run as a Python script in a terminal with the following:
 ```bash
 python locate.py
 ```
+
+Outputs give a tuple with the location of the hospital and its address.
+
+Example Outputs:
+
+![Example Outputs](./test_result.png)
 
 ## Dependencies
 
@@ -42,7 +48,7 @@ You may need to get your own Google API key from the Google Cloud service for th
 
 ## Work in Progress
 
-There are many features still being implemented since my computer is having trouble
+Many features are still being implemented since my computer is having trouble
 with the RESTful requests being made with the _Axios_ library in JS due to CORS and getting bad
 locations. The program is currently only made to give you the closest hospital to
 your location.
